@@ -1,164 +1,206 @@
 .shadow {
-  box-shadow: 0 2px 15px rgb(0 0 0 / 68%);
+	box-shadow: 0 2px 15px rgb(0 0 0 / 68%);
+	border-radius: 25px;
+	overflow: hidden;
 }
 
 /* Chat List */
 .ce-wrapper {
-  background-color: #4a5162 !important;
+	/* background-color: transparent !important; */
+	background: #0e3439b3 !important;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 }
 
 .ce-chats-container {
-  background-color: #4a5162 !important;
-  border-radius: 0px !important;
+	background-color: #0e3439 !important;
+
+	border-radius: 0px !important;
+	/* border-radius: 25px; */
+
+	box-shadow: 0 2px 15px rgb(0 0 0 / 68%);
 }
 
 .ce-chat-form-container {
-  background-color: #4a5162 !important;
-  color: white;
+	background-color: #0e3439 !important;
+	border-radius: 24px;
+	color: white;
 }
 
 .ce-chat-card {
-  margin: 0px 6px !important;
+	margin: 0px 6px !important;
 }
 
 .ce-chat-card-loading-bar {
-  background-color: #535a6d !important;
+	background-color: #0e3439 !important;
 }
 
 .ce-active-chat-card {
-  background-color: #726dfe !important;
+	background-color: #1e6c75 !important;
 }
 
 .ce-chat-title-text {
-  color: white !important;
+	color: white !important;
 }
 
 .ce-chat-subtitle-text {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+	color: white !important;
 }
 
 .ce-chat-unread-dot {
-  background-color: white !important;
+	background-color: white !important;
 }
 
 /* Chat Feed */
 
 .ce-chat-title-container {
-  background-color: #4a5162 !important;
-  border-radius: 0px !important;
+	background-color: rgba(14, 52, 57, 0.9) !important;
+	backdrop-filter: blur(10px);
+	border-radius: 0px !important;
 }
 
 .ce-chat-feed-container {
-  background-color: #4a5162 !important;
+	background-color: rgb(14, 52, 57) !important;
+	overflow: hidden;
 }
 
 .ce-primary-button {
-  background-color: #9a97fc !important;
+	background-color: #57d2d0 !important;
 }
 
 .ce-message-date-text {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+	color: hsla(0, 0%, 100%, 0.568) !important;
 }
 
 .ce-my-message-bubble {
-  background-color: #726dfe !important;
+	background-color: #32849b !important;
 }
 
 .ce-my-message-sinding-bubble {
-  background-color: #938ffe !important;
+	background-color: #25abba !important;
 }
 
 .ce-my-message-timestamp {
-  color: #9a97fc !important;
+	color: #368da1 !important;
 }
 
 .ce-their-message-timestamp {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+	color: hsla(180, 71%, 56%, 0.568) !important;
 }
 
 #ce-send-message-button {
-  background-color: #9a97fc !important;
+	background-color: #57d2d0 !important;
 }
 
 #ce-ice-breaker-gif {
-  max-width: 115px !important;
-  margin-top: 30px !important;
+	max-width: 115px !important;
+	margin-top: 30px !important;
 }
 
 .ce-social-message-form {
-  background-color: #4a5162 !important;
+	background-color: #25abba !important;
+	border-radius: 2rem;
+	box-shadow: 0 2px 15px rgb(0 0 0 / 68%);
+	padding-top: 12px !important;
+	padding-bottom: 0px !important;
 }
 
 .ce-message-input-form {
-  padding-bottom: 10px !important;
+	padding-bottom: 10px !important;
 }
 
 #msg-textarea {
-  width: calc(100% - 140px) !important;
-  position: relative !important;
-  top: 4px !important;
-  border-width: 0px !important;
-  background-color: #4a5162 !important;
-  color: white !important;
+	width: calc(100% - 140px) !important;
+	position: relative !important;
+	top: 4px !important;
+	border-width: 0px !important;
+	border-radius: 2rem;
+	background-color: transparent !important;
+	color: white !important;
 }
 #msg-textarea::placeholder {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+	color: white !important;
 }
 
 #ce-upload-document-icon {
-  color: white !important;
+	color: white !important;
 }
 
 .ce-feed-container-bottom {
-  height: "44px";
+	height: "44px";
 }
 
 .ce-message-images-row {
-  background-color: #4a5162 !important;
+	background-color: #0e3439 !important;
 }
 
 .ce-their-message-sender {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+	color: hsla(0, 0%, 100%, 0.568) !important;
 }
 
 .ce-their-message-bubble {
-  background-color: #535a6d !important;
-  color: rgba(255, 255, 255, 0.705) !important;
+	background-color: #32849b !important;
+	color: white !important;
 }
 
 /* Chat Settings */
 
 .ce-settings {
-  background-color: #4a5162 !important;
-  border-radius: 0px !important;
+	background-color: #0e3439 !important;
+	border-radius: 0px !important;
 }
 
 .ce-chat-title-form .ce-text-input {
-  background-color: #4a5162;
-  color: white;
+	background-color: #0e3439;
+	color: white;
 }
 
 .ce-section-title-container {
-  background-color: #4a5162 !important;
-  color: white;
+	background-color: #0e3439 !important;
+	color: white;
 }
 
 #ce-options-drop-down {
-  background-color: #4a5162 !important;
-  color: white;
+	background-color: #0e3439 !important;
+	color: white;
 }
 
 .ce-person-text {
-  color: hsla(0, 0%, 100%, 0.568);
+	color: hsla(0, 0%, 100%, 0.568);
 }
 
 .ce-danger-button {
-  background-color: #4a5162 !important;
-  border: 1px solid #9a97fc !important;
-  color: #9a97fc !important;
+	background-color: #0e3439 !important;
+	border: 1px solid #9a97fc !important;
+	color: #9a97fc !important;
 }
 
 .ce-autocomplete-close {
-  background-color: white !important;
-  border-radius: 0px !important;
+	background-color: white !important;
+	border-radius: 0px !important;
+}
+
+#ce-social-msg-form-container {
+	background: transparent !important;
+}
+
+.ce-chat-list {
+	background-color: transparent !important;
+}
+
+.ce-chat-engine {
+	background-color: transparent !important;
+}
+
+.ce-chat-feed-column {
+	overflow: hidden;
+}
+
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+::-webkit-scrollbar {
+	width: 0; /* Remove scrollbar space */
+	background: transparent; /* Optional: just make scrollbar invisible */
 }
