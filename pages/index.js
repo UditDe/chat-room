@@ -41,7 +41,7 @@ export default function Auth() {
 					autocomplete="off"
 					onSubmit={(e) => onSubmit(e)}
 				>
-					<div className="auth-title">Nxt-Js Cht</div>
+					<div className="auth-title">Therapist.ai</div>
 					<div className="input-container">
 						<input
 							autocomplete="false"
